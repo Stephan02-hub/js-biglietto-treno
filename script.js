@@ -35,12 +35,12 @@ const under = 18;
 
 const over = 65;
 
-if (ageClient < under) {
+if (age < under) {
     const priceUnderFinal = priceFinalKm - discountPriceUnder;
     alert(`Hai uno sconto del 20% e il prezzo finale e ${priceUnderFinal.toFixed(2)} €`);
     console.log(priceUnderFinal.toFixed(2));
 
-} else if (ageClient >= over) {
+} else if (age >= over) {
     const priceOverFinal = priceFinalKm - discountPriceOver;
     alert(`Hai uno sconto del 40% e il prezzo finale e ${priceOverFinal.toFixed(2)} €`)
     console.log(priceOverFinal.toFixed(2))
